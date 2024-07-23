@@ -1,33 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className = "welcome">
+        <h1 className='main_title'>My Curriculum Vitae</h1>
+        <p className="small_comment">aka 'Ridiculum Vitae'</p>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-          <br></br>Or don't lol
-        </p>
+      <div className='main_info'>
+        <div className="personal_info">
+          <h1>Personal information</h1>
+          <div className="personal_info_desc">
+            <p>Name: Lucas Maragaño</p>
+            <p>Age: Around 20 idk</p>
+            <p>Sexual orientation: I like women</p>
+            <p>Peeing position: Standing up</p>
+            <p>Favorite hobbies: Reading, gaming, and... gymning (?)</p>    
+          </div>
+        </div>
+        <div className="achievement_info">
+          <h1>Achievements</h1>
+            <div className="achievement_info_desc">
+              <p>School: Lincoln International Academy</p>
+              <p>University experiences:</p>
+              <ul>
+                <li>Universidad Diego Portales Ingeniería informatica (didn't finish)</li>
+                <li>Inacap Analista programador (in progress)</li>
+              </ul>
+              <p>Languages:</p>
+              <ul>
+                <li>Mother tongue: Spanish</li>
+                <li>Fluent in:</li>
+                <ul>
+                  <li>English</li>
+              </ul>
+              </ul>
+            </div>
+          </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      
     </div>
   )
 }
