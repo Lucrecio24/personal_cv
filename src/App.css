@@ -1,10 +1,12 @@
 #root {
-  max-width: 80%;
+  max-width: 60%;
   margin: 0 auto;
-  list-style-position: outside;
+  height: 100%;
 }
-
-.welcome{
+h1{
+  margin: 0;
+}
+.welcome_box{
   padding: 2rem;
   text-align: center;
 }
@@ -17,27 +19,55 @@
   font-family: cursive;
   font-size: small;
 }
-.main_info{
-  margin-inline: 10%;
+.main_box{
   display: flex;
   justify-content: space-between;
 }
 .personal_info{
-  width: 45%;
-  height: 30;
+  width: 47%;
   text-align: center;
   outline: groove #353535;
+  outline-width: 0,3em;
 }
 .personal_info_desc{
   margin-inline: 2.2em;
   text-align: left;
 }
 .achievement_info{
-  width: 45%;
-  outline: groove #353535;
+  width: 47%;
   text-align: center;
+  outline: groove #353535;
+  outline-width: 0,3em;
 }
 .achievement_info_desc{
   margin-inline: 2.2em;
   text-align: left;
+}
+.bottom_box{
+  margin-top: 2em;
+  outline: groove #353535;
+  outline-width: 0.3em;
+  text-align: center;
+  box-sizing: border-box;
+}
+.social_media_box{
+  margin: 4%;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2em;
+}
+.social_media_info{
+  outline: groove #353535;
+  height: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.social_media_icon{
+  margin: 20% 0px 10%;
+  height: 32px;
+  width: 32px;
+  vertical-align:middle;
 }
