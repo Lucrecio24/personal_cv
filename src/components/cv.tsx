@@ -2,7 +2,7 @@ import "./cv.css"
 function CurriculumVitae() {
 
   return (
-    <div className="all">
+    <div className="cv-all">
       <div className = "welcome_box">
         <h1 className="main_title">My Curriculum Vitae</h1>
         <p className="small_comment">aka "Ridiculum Vital"</p>

@@ -1,6 +1,9 @@
 h1{
     margin: 0;
 }
+.topbar-all{
+    padding-bottom: 0.5em;
+}
 .name{
     text-align: center;
     font-family: 'Cooper Black', sans-serif;

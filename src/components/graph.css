@@ -1,3 +1,31 @@
 #root{
     margin: auto;
 }
+.graphs-all{
+    margin-inline: 10%;
+    border: #353535 0.4em solid;
+    border-radius: 1em;
+    height: auto;
+    text-align: center;
+}
+.graph-meme{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
+.graphs-grid{
+    margin-inline: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    gap: 2em;
+    padding-bottom: 2em;
+}
+.graph-box{
+    width: auto;
+    height: auto;
+    padding: 0.5em;
+    border: #353535 0.3em solid;
+    border-radius: 1em;
+}

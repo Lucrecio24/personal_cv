@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 function TopBar() {
 
   return (
-    <div>
+    <div className="topbar-all">
         <div className="name">
           <Link id="mainmenu_button" to={"/"}>Keep it PG +18</Link>
         </div>

@@ -5,12 +5,12 @@
 h1{
   margin: 0;
 }
-.all{
+.cv-all{
+  margin-top: 0;
   margin-inline: 20%;
 }
 .welcome_box{
   margin-top: 0;
-  padding: 2em;
   padding-bottom: 0px;
   text-align: center;
 }
