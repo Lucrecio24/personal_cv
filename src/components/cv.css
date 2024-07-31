@@ -1,13 +1,17 @@
 #root {
-  max-width: 60%;
   margin: 0 auto;
   height: 100%;
 }
 h1{
   margin: 0;
 }
+.all{
+  margin-inline: 20%;
+}
 .welcome_box{
-  padding: 2rem;
+  margin-top: 0;
+  padding: 2em;
+  padding-bottom: 0px;
   text-align: center;
 }
 .main_title{
@@ -51,23 +55,21 @@ h1{
   box-sizing: border-box;
 }
 .social_media_box{
-  margin: 4%;
+  margin: 3%;
+  padding-bottom: 3em;
   display: grid;
   justify-content: space-between;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 2em;
 }
 .social_media_info{
   outline: groove #353535;
   height: 5em;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  align-content: space-around;
 }
-
 .social_media_icon{
-  margin: 20% 0px 10%;
-  height: 32px;
-  width: 32px;
-  vertical-align:middle;
+  height:42px;
+  width:42px;
 }

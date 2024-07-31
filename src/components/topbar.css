@@ -1,0 +1,39 @@
+h1{
+    margin: 0;
+}
+.name{
+    text-align: center;
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 32px;
+    align-content: space-around;
+    border-width: 0.5em;
+    border-color: yellow;
+    max-width: 60%;
+    margin-inline: 20%;
+}
+.buttons{
+    width: auto;
+    margin-inline: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#button{
+    background-color: #353535;
+    color: white;
+    display: block;
+    height: 2em;
+    line-height: 40px;
+    text-decoration: none;
+    width: 7em;
+    text-align: center;
+}#mainmenu_button{
+    background-color: #353535;
+    color: white;
+    display: block;
+    height: 2em;
+    text-decoration: none;
+    width: 100%;
+    line-height: 2em;
+    border: #FAEA36 0.2em solid;
+    border-radius: 20px;
+}
